@@ -105,14 +105,12 @@ ul li a:hover {
 
 .header-proper h1 {
   font-family: "Poppins";
-  font-size: 200%;
+  font-size: 300%;
   font-weight: 300;
   color: grey;
   line-height: 0px;
-  
+  display: inline-block;
 }
-
-
 
 .linkedin {
   content: url("../assets/img/linkedin.png");
