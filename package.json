@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EngineerRandyN/Portfolio.git"
+    "url": "git+https://github.com/EngineerRandyN/engineerrandyn.github.io"
   },
   "author": "Randy Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EngineerRandyN/Portfolio.git/issues"
+    "url": "https://github.com/EngineerRandyN/engineerrandyn.github.io/issues"
   },
   "dependencies": {
     "gh-pages": "^1.2.0",
