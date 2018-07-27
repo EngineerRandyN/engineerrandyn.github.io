@@ -1,0 +1,133 @@
+body {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Poppins';
+}
+
+h1 a {
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h1 a:hover {
+  color: white;
+  background: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'Poppins';
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: none;
+  background: none;
+  border-radius: none;
+  text-decoration: none;
+}
+
+p {
+  font-size: 120%;
+  font-weight: 300;
+  color: grey;
+  line-height: 40px;
+  font-family: 'Poppins';
+}
+
+ul {
+  list-style: none;
+  color: grey;
+  font-family: 'Poppins';
+  display: inline-block
+}
+
+ul li {
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+ul li a {
+  color: orange;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: white;
+  background: orange;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.header-proper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-proper h1 {
+  font-family: "Poppins";
+  font-size: 200%;
+  font-weight: 300;
+  color: grey;
+  line-height: 0px;
+  
+}
+
+
+
+.linkedin {
+  content: url("../assets/img/linkedin.png");
+  display: inline-block;
+}
+
+.github {
+  content: url("../assets/img/github.png");
+  display: inline-block;
+}
+
+#projects {
+  border-top: 1px solid #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}

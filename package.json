@@ -1,0 +1,24 @@
+{
+  "name": "engineerrandyn.github.io",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://engineerrandyn.github.io/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngineerRandyN/Portfolio.git"
+  },
+  "author": "Randy Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngineerRandyN/Portfolio.git/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
